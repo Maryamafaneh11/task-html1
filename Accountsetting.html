@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<link href="style.css" type="text/css" rel="stylesheet">
+
+<script type="text/javascript">
+    function Toggle(value){
+        switch(value){
+            case 'General':
+            document.getElementById('General').style.display="block";
+            document.getElementById('Password').style.display="none";
+            document.getElementById('Info').style.display="none";
+            document.getElementById('Notification').style.display="none";
+            break;
+            case 'Password':
+            document.getElementById('General').style.display="none";
+            document.getElementById('Password').style.display=" block";
+            document.getElementById('Info').style.display="none";
+            document.getElementById('Notification').style.display="none";
+
+            break;
+            case 'Info':
+            document.getElementById('General').style.display="none";
+            document.getElementById('Password').style.display="none";
+            document.getElementById('Info').style.display="block";
+            document.getElementById('Notification').style.display="none";
+            break;
+            case 'Notification':
+            document.getElementById('General').style.display="none";
+            document.getElementById('Password').style.display="none";
+            document.getElementById('Info').style.display="none";
+            document.getElementById('Notification').style.display="block";
+            break;
+        }
+    }
+    </script>
+
+</head>
+    <body>
+        
+        <div class="Title">
+        <label>Account Settings</label>
+        </div >
+      
+
+       <div class="bagbox">
+           <div class="minbox" >
+           
+            <div class="menuItem" onclick="Toggle('General')">
+           <span>General</span></div>
+
+            <div class="menuItem" onclick="Toggle('Password')">
+                <span>Change password</span> </div>
+
+            <div class="menuItem" onclick="Toggle('Info')">
+                    <span>Info</span></div>
+
+            <div class="menuItem" onclick="Toggle('Notification')">
+            <span> Notification</span>  </div>
+
+        </div>
+      <div class="Content">
+          <div id="General">
+        <div class="rowbox">
+            <div class="imagcontenar" >
+            <img src="C:\Users\User\Desktop\HTM.task\Basic task\Basictask\avactor.img.png" width="60px" height="60px"/>
+        </div>
+        <div  class ="actincontenar" >
+            <div style="float: left;">
+                 <button style="margin-right: 17px;background-color: #428bca;border-radius: 4px;
+                 border-color: #357ebd;color: #ffffff;" type="button">upload new photo </button>               
+            </div>
+            <div style="float: left;">
+                <button style="margin-right: 17px;background-color: #d9534f;border-radius: 4px;
+                border-color: #d9534f;color: #ffffff;"type="button">resel </button>
+
+            </div>
+            <div style="clear: left;">
+<label style="font-size: 10px;">Allowed JPG ,GIF or PNG.Max Size of 800k</label>
+            </div>
+
+        </div>
+    </div>
+    <div class="rowbox2">
+        <div style="padding-right: 308px; margin-top: 15px;color: gray;font-size: 12px;">
+            <span>Username</span>
+            <div>
+                <input type="text" style="border-radius: 4px;margin-top: 12px;padding-right: 259px;
+                border: 1px solid #cccccc;"/>
+            </div>
+            <div style="margin-top: 12px ;" >
+                <span>Name</span>
+                <div >
+                    <input type="text" style="border-radius: 4px;margin-top: 12px;padding-right: 259px;
+                    border: 1px solid #cccccc;margin-bottom: 12px;"/>
+                </div>
+                <div >
+                    <span>Email</span>
+                    <div >
+                        <input type="text" placeholder="Enter your email" required pattern="\w(\w|\d)*@\w(\w|\d)*.2,3\w" style="margin-top: 12px;
+                        border-radius: 4px;margin-top: 12px;padding-right: 259px;border: 1px solid #cccccc;"/>
+                    </div>
+                    <div style="margin-top: 15px;">
+                    <div  style="padding-left: 20px;width: 411px;background-color: #FFF3CD;height: 61px;padding-top: 13px;
+                    font-size: 13px;">
+                        <label>Your Email is not confirmed.please check</label>
+                        <div style="margin-top: 16px;">
+                            <a href="" style="color:blue;">Resend confirmed</a>
+                        </div>
+                        </div></div>
+                        <div style="margin-top: 12px;">
+                            <span>company</span>
+                            <div>
+                                <input type="text" style="border-radius: 4px;margin-top: 12px;padding-right: 259px;
+                                border: 1px solid #cccccc;"/>
+                            </div>
+                            <div style="margin-top: 16px;padding-left: 275px;">
+                                <button style="border-radius: 4px;color:  #ffffff;background-color: #3276b1;
+                                border-color: #3276b1;"type="button"> Save Change</button>
+                                <button style="border-radius: 4px;color: #333333;background-color: #ffffff;
+                                border-color: #cccccc;"type="button">Cancel</button>
+                            </div>
+        </div>
+    </div>
+    </div>
+        </div>
+    </div>
+</div>
+<div id="Password" style="display: none;">
+Current passward
+<div>
+<input type="text" style="margin-bottom: 20px;margin-top: 15px;margin-left: 14px;padding-right: 259px;">
+</div>
+<div>
+New password
+<div>
+<input type="text"style="margin-bottom: 20px;margin-top: 15px;margin-left: 14px;padding-right: 259px;">
+</div>
+</div>
+<div>
+Repeat new password
+<div>
+<input type="text"style="margin-bottom: 20px;margin-top: 15px;margin-left: 14px;padding-right: 259px;">
+</div>
+</div>
+<button style="margin-left: 238px;color: #ffffff;border-radius: 4px;background-color: #428bca;border-color: #357ebd;
+margin-top: 46px;">Save Change</button>
+<button style="color: #333333;;border-radius: 4px;background-color: #ffffff;;border-color: #333333;">save Change</button>
+</div>
+
+
+
+
+<div id="Info" style="display: none;">
+Bio
+<div>
+<input type="text" style="margin-bottom: 20px;margin-top: 15px;margin-left: 14px;padding-right: 259px;">
+</div>
+<div>
+Birthday
+<div>
+<input type="date"minbox="01-01-1990" max="12-31-2021" style="margin-bottom: 20px;margin-top: 15px;margin-left: 14px;padding-right: 285px;">
+
+</div>
+</div>
+<div>
+country
+<div>
+
+<select style="margin-bottom: 20px;margin-top: 15px;margin-left: 14px;padding-right: 365px;">
+    <option>USA</option>
+    <option>Jordan</option>
+</select>
+</div>
+</div>
+<div  style="margin-top: 23px;">
+    
+    <label style="color: black;font-size: 24px;">contacts</label>
+<div  style="margin-top: 12px;">
+    phone
+<div>
+<input type="text" style="margin-bottom: 20px;margin-top: 15px;margin-left: 14px;padding-right: 259px;">
+</div>
+website
+<div>
+<input type="text" style="margin-bottom: 20px;margin-top: 15px;margin-left: 14px;padding-right: 259px;">
+</div>
+<button style="margin-left: 238px;color: #ffffff;border-radius: 4px;background-color: #428bca;border-color: #357ebd;
+margin-top: 46px;">Save Change</button>
+<button style="color: #333333;;border-radius: 4px;background-color: #ffffff;;border-color: #333333;">save Change</button>
+</div>
+
+</div>
+
+</div>
+
+
+
+
+
+
+<div id="Notification" style="display: none;">
+   <span style="color: black; font-size: 24px;"> Activity</span>
+   <div style="padding-bottom: 8px; padding-top: 24px;">
+    <input type="checkbox"  >
+    <label>Email me when someone comments on my article</label>
+</div>
+<div style="padding-bottom: 8px; padding-top: 22px;">  
+    <input type="checkbox" >
+    <label>Email me when someone anserwers on my forum thread</label>
+</div>
+<div style="padding-bottom: 8px; padding-top: 22px;">
+    <input type="checkbox" >
+    <label>Email me when someone follows me </label>
+   </div>
+
+
+
+
+       <div style=" padding-top: 22px;display: block;padding-left: 8px;" >
+      <span style="color: black; font-size: 24px;"> Application</span>
+        <div style="padding-bottom: 8px; padding-top: 22px;">
+         <input type="checkbox" >
+         <label>News and announcements</label>
+     </div>
+     <div style="padding-bottom: 8px; padding-top: 22px;">
+         <input type="checkbox" >
+         <label>Weekly product updates</label>
+     </div>
+     <div style="padding-bottom: 8px; padding-top: 22px;">
+         <input type="checkbox" >
+         <label>Weekly blog digest</label>
+        </div>
+        <button style="margin-left: 238px;color: #ffffff;border-radius: 4px;background-color: #428bca;border-color: #357ebd;
+margin-top: 46px;">Save Change</button>
+
+       </div>
+    </div>
+    </div>
+      </div>
+    </body>
+
+</html>

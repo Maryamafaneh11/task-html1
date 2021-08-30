@@ -1,0 +1,189 @@
+body{
+    margin-bottom: 351px;
+    background-color: #EEEE;
+}
+
+
+.Title
+{  margin-top: 57px;
+    margin-left: 55px;
+    margin-bottom: 29px;
+    font-size: 24px;
+    color: black;
+}
+    
+    .bagbox{
+        color: #555555;
+        border: 1px solid;
+        margin: 10px 20px 0 20px;
+        background-color: white;
+        height: 536px;
+       
+    }
+    .minbox{
+        float: left;
+        width: 175px;
+
+    }
+        
+     
+       
+    
+    .gen{
+        padding-right: 17px;
+        border-bottom-style: solid;
+        padding-top: 33px;
+        margin-bottom: 26px;
+        font-size: 17px;
+        color: #555555;
+        margin-left: 1px;
+        margin-top: -6px;
+        border-bottom-color: #cccccc;
+        padding-bottom: 32px;
+        padding-left: 28px;
+    }
+    
+    
+    
+  
+    .pass{
+        padding-right: 17px;
+        border-bottom-style: solid;
+        padding-top: 12px;
+        margin-bottom: 26px;
+        font-size: 17px;
+        color: #555555;
+        margin-left: 1px;
+        margin-top: -6px;
+        border-bottom-color: #cccccc;
+        padding-bottom: 32px;
+        padding-left: 23px;
+    }
+    .inf{
+        padding-right: 17px;
+        border-bottom-style: solid;
+    padding-top: 12px;
+    margin-bottom: 26px;
+    font-size: 17px;
+    color: #555555;
+    margin-left: 1px;
+    margin-top: -6px;
+    border-bottom-color: #cccccc;
+    padding-bottom: 32px;
+    padding-left: 34px;
+    }
+    .noti{
+        padding-right: 17px;
+       
+        padding-top: 12px;
+        margin-bottom: 26px;
+        font-size: 17px;
+        color: #555555;
+        margin-left: 1px;
+        margin-top: -6px;
+        
+        padding-bottom: 32px;
+        padding-left: 12px;
+    }
+
+    .rowbox{
+/*        margin-bottom: 0px;
+        margin-left: 2px;
+        margin-right: -1px;
+        border-top: solid;
+        padding-bottom: 82px;
+        padding-left: 19px;
+        background-color: white;
+        padding-top: 16px;
+        border-right: solid;*/
+overflow: hidden;
+    }
+    
+    .rowlefbox{
+       
+        padding-top: 17px;
+        font-size: 10px;
+        float: left;
+    }
+    .button{
+        padding-top: 22px;
+        padding-left: 33px;
+        float: left;
+        padding-right: 26px;}
+  
+    .rowbox2{
+        clear: left;
+        margin-left: 21px;
+margin-top: 28px;
+    }
+    .colorb1{
+        color: #ffffff;
+        background-color: #428bca;
+    }
+    .colorb1{
+        float: left;
+        color: #ffffff;
+        background-color: #d9534f;
+    
+    }
+.menuItem{
+    color: gray;
+    border-bottom: 1px solid #E6ECF3;
+    padding: 32px 0px 27px 20px;
+
+
+}
+.menuItem:hover{
+    background-color: #F0F0F0;
+}
+
+.Content{
+    
+    margin-left: 22px;
+    float: left;
+   
+    
+    width: 900px;
+}
+.imagcontenar{
+    margin-left: 21px;
+    float: left;
+    margin-top: 10px;
+    
+}
+
+.actincontenar{
+    margin-top: 33px;
+    float: left;
+    margin-left: 51px;
+    width: 500px;
+}
+.buttonupload{
+    background-color: #428bca;
+    border: 1px solid;
+    border-radius: 4px;
+    color: #ffffff;
+    float: left;
+}
+
+#Password{
+    margin-top: 12px;
+    padding-right: 259px;
+   
+    padding-top: 11px;
+    margin-bottom: 12px;
+    display: block;
+    padding-left: 21px;
+    padding-bottom: 50px;
+}
+#Info{
+    display: block;
+    margin-left: 16px;
+    margin-top: 22px;
+}
+#Notification{
+    padding-top: 22px;
+    display: block;
+    padding-left: 41px;
+   
+}
